@@ -34,10 +34,10 @@ Since `cowsay-wrapper` depends on `cowsay` library, you must build the library f
 
 ## FOSSA Analysis
 
-This setup demonstrates how FOSSA CLI handles Maven projects with local dependencies:
+This setup demonstrates how FOSSA CLI handles Maven projects with local dependencies, but this is a good setup for how things may run at an enterprise level, where wrappers of actual OSS dependencies may be stored in a private registry.
 
 - FOSSA requires dependencies to be resolvable via Maven's standard mechanisms
-- Local dependencies must be built and installed to the local repository first
+- Local dependencies must be built and installed
 - Use `fossa list-targets` to identify project modules before analysis
 
 ## Dependencies
