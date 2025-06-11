@@ -18,7 +18,7 @@ fossa-maven-demo/
 
 ## Build Order
 
-Since `app-using-lib` depends on `cowsay-lib`, you must build the library first:
+Since `cowsay-wrapper` depends on `cowsay-lib`, you must build the library first:
 
 1. **Build and install the library:**
    ```bash
