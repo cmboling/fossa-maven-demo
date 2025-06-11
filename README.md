@@ -45,4 +45,4 @@ This setup demonstrates how FOSSA CLI handles Maven projects with local dependen
 - `cowsay-wrapper` → `cowsay` (local dependency)
 - Maven coordinates: `com.example:cowsay-lib:1.0.0`
 
-Based on the [FOSSA Maven demo project](https://github.com/cmboling/fossa-maven-demo).
+[Maven strategy](https://github.com/fossas/fossa-cli/blob/master/docs/references/strategies/languages/maven/maven.md).
