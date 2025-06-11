@@ -28,7 +28,7 @@ Since `cowsay-wrapper` depends on `cowsay` library, you must build the library f
 
 2. **Build the application:**
    ```bash
-   cd ../cowsay-wrapper
+   cd ../cowsay-app
    mvn clean compile
    ```
 
